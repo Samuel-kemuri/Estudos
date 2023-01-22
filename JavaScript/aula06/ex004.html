@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var nome = window.prompt('Qual é seu nome?')
+        document.write(`Olá, <strong>${nome}</strong>! Seu nome tem  <strong>${nome.length}</strong> letras.</br>`)
+        document.write(`Seu nome em maiúsculas é <strong>${nome.toUpperCase()}</strong>!</br>`)
+        document.write(`Seu nome em minúsculas é <strong>${nome.toLocaleLowerCase()}</strong!</br>`)
+            /*
+            -FORMATANDO STRING-
+            (s.length) quantos caracteres a string tem 's e a variavel'
+            (s.toUpperCase()) deixar toda a string maiúscola 's e a variavel'
+            (s.toLowerCase()) deixar toda a string minúscola 's e a variavel'
+            -OBSERVAÇÃO-
+            os templates só funcionam com acentos graves exemplo:
+            (`A soma dos valores de ${n1} e ${n2} é igual ${s}`)
+            */ 
+    </script>
+</body>
+</html>
